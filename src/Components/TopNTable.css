@@ -1,0 +1,38 @@
+.topn-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  background: #23272f;
+  color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.topn-table th, .topn-table td {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+.topn-table th {
+  background: #353a42;
+  font-weight: 600;
+  border-bottom: 2px solid #4a90e2;
+}
+
+.topn-table tr {
+  transition: background 0.2s;
+}
+
+.topn-table tbody tr:hover {
+  background: #2c313a;
+}
+
+.topn-table td {
+  border-bottom: 1px solid #353a42;
+}
+
+.topn-table tr:last-child td {
+  border-bottom: none;
+}
