@@ -1,4 +1,4 @@
-# Mini Analytics Portal (Mixpanellite Clone)
+# Mini Analytics Portal
 
 A React + TypeScript analytics UI with local (mocked) authentication, protected routes, filterable dashboard, timeseries chart, TopN table, and CSV export — all with no backend APIs.
 
